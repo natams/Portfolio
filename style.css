@@ -1583,7 +1583,7 @@ input:checked+.slider .off {
 	overflow-x: auto;
 	scroll-snap-type: x mandatory;
 	scrollbar-width: thin;
-	scrollbar-color: #0e82ff #ffffff14;
+scrollbar-color: #9f9f9f #ffffff14;
 }
 
 .pj-strip::-webkit-scrollbar {
@@ -1662,7 +1662,7 @@ input:checked+.slider .off {
 }
 
 .pj-tile-art img {
-	max-width: 60%;
+	max-width: 80%;
 	max-height: 100%;
 	object-fit: contain;
 }
@@ -1702,8 +1702,7 @@ input:checked+.slider .off {
 	gap: 0.4em;
 	color: #ff308a;
 	font-size: 0.85em;
-	font-weight: 700;
-	letter-spacing: 0.08em;
+	font-weight: 900;
 	text-transform: uppercase;
 }
 
@@ -1935,7 +1934,7 @@ input:checked+.slider .off {
 	width: 100%;
 	max-width: 1200px;
 	align-items: start;
-	padding: 1em 0em 1em 0em !important;
+	padding: 0em !important;
 }
 
 .experience-year {
@@ -1954,7 +1953,7 @@ input:checked+.slider .off {
 }
 
 .experience-entry:nth-of-type(2) .experience-line {
-	height: 98%;
+	height: 93%;
 	top: 55px;
 }
 
