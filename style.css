@@ -656,19 +656,10 @@ li {
 
 @font-face {
 	font-family: 'Impact';
-	src: url('path/to/impact/impact-regular.woff2') format('woff2'),
-		url('path/to/impact/impact-regular.woff') format('woff');
+	src: url('impact/impact.ttf') format('truetype');
 	font-weight: normal;
 	font-style: normal;
 	font-display: swap;
-}
-
-@font-face {
-	font-family: 'Impact';
-	src: url('path/to/impact/impact-bold.woff2') format('woff2'),
-		url('path/to/impact/impact-bold.woff') format('woff');
-	font-weight: bold;
-	font-style: normal;
 }
 
 
@@ -1583,7 +1574,7 @@ input:checked+.slider .off {
 	overflow-x: auto;
 	scroll-snap-type: x mandatory;
 	scrollbar-width: thin;
-scrollbar-color: #9f9f9f #ffffff14;
+	scrollbar-color: #0e82ff #ffffff14;
 }
 
 .pj-strip::-webkit-scrollbar {
@@ -1662,8 +1653,8 @@ scrollbar-color: #9f9f9f #ffffff14;
 }
 
 .pj-tile-art img {
-	max-width: 80%;
-	max-height: 100%;
+	max-width: 60%;
+	max-height: 70%;
 	object-fit: contain;
 }
 
@@ -1702,7 +1693,8 @@ scrollbar-color: #9f9f9f #ffffff14;
 	gap: 0.4em;
 	color: #ff308a;
 	font-size: 0.85em;
-	font-weight: 900;
+	font-weight: 700;
+	letter-spacing: 0.08em;
 	text-transform: uppercase;
 }
 
@@ -1934,7 +1926,7 @@ scrollbar-color: #9f9f9f #ffffff14;
 	width: 100%;
 	max-width: 1200px;
 	align-items: start;
-	padding: 0em !important;
+	padding: 1em 0em 1em 0em !important;
 }
 
 .experience-year {
@@ -1953,7 +1945,7 @@ scrollbar-color: #9f9f9f #ffffff14;
 }
 
 .experience-entry:nth-of-type(2) .experience-line {
-	height: 93%;
+	height: 98%;
 	top: 55px;
 }
 
@@ -2174,8 +2166,8 @@ scrollbar-color: #9f9f9f #ffffff14;
 	margin: 0em 0em 0.6em 0em;
 	color: #0e82ff;
 	font-size: 0.5em;
-	font-weight: 900;
-	letter-spacing: 0.05em;
+	font-weight: 700;
+	letter-spacing: 0.14em;
 	text-transform: uppercase;
 }
 
