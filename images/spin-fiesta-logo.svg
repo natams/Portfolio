@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 80" width="320" height="80">
+  <circle cx="40" cy="40" r="35" fill="none" stroke="#ffffff" stroke-width="4"/>
+  <circle cx="40" cy="40" r="29" fill="#ffffff" fill-opacity="0.14"/>
+  <path fill="#ffffff" d="M40 15C33 25 19 32 19 44C19 51 24.5 56 31 56C35 56 38 54 39 51.5L35 63H45L41 51.5C42 54 45 56 49 56C55.5 56 61 51 61 44C61 32 47 25 40 15Z"/>
+  <text x="90" y="54" font-family="Avenir Next, Trebuchet MS, Segoe UI, Arial, sans-serif" font-size="40" font-weight="900" font-style="italic" fill="#ffffff">Spin Fiesta</text>
+</svg>

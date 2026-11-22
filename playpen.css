@@ -475,7 +475,7 @@ h1 {
     background-color: #c78f00;
     font-size: 0.7em;
     cursor: pointer;
-    margin: 10px 0px 0px 0px;
+    margin: 5px 0px 0px 0px;
     display: inline-block;
 }
 
@@ -493,6 +493,10 @@ h1 {
 
 .play-5 .result .btn {
     width: 100px;
+}
+
+.play-5 #resultText {
+    font-size: 0.9em;
 }
 
 @media screen and (max-width: 540px) {
@@ -919,7 +923,8 @@ h1 {
 .playpen .border-glow {
     margin: 3em auto 1em auto;
     max-width: 500px;
-    height: 219px;
+    height: 217px;
+    padding: 1px;
     border-radius: 12px;
     -webkit-mask: none;
     mask: none;

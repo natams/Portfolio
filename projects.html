@@ -13,9 +13,7 @@
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Assistant:wght@200..800&family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@200..800&family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
 
     <!-- Link to CSS-->
     <link rel="stylesheet" href="style.css" />
@@ -94,767 +92,300 @@
 
     <main>
 
-        <div class="projects">
+      <div class="pj">
 
-            <h2>iGaming</h2>
+        <section class="pj-hero" aria-labelledby="pj-title">
+          <h1 id="pj-title" class="pj-h1">I build gaming experiences that <span class="pj-grad-text">onboard, engage and convert.</span></h1>
+          <p class="pj-lead">iGaming growth and promotion specialist. Real casino and sportsbook brand work, plus playable projects I built to show how I think about onboarding, return and monetisation.</p>
+          <ul class="pj-stats">
+            <li class="pj-stat"><b>5</b><span>iGaming brands</span></li>
+            <li class="pj-stat"><b>4</b><span>markets</span></li>
+            <li class="pj-stat"><b>5</b><span>years in web and digital</span></li>
+            <li class="pj-stat"><b>2</b><span>playable demos</span></li>
+          </ul>
+        </section>
 
-            <div class="toggle-container">
-                <label class="switch">
-                    <input type="checkbox" id="togBtn">
-                    <div class="slider round">
-                        <span class="off">Desktop</span>
-                        <span class="on">Mobile</span>
-                    </div>
-                </label>
+        <section id="featured" aria-labelledby="pj-featured-title">
+          <div class="pj-sec-head">
+            <p class="pj-kicker">Built to play</p>
+            <h2 id="pj-featured-title">Featured projects</h2>
+            <p class="pj-sub">Two projects I designed and coded from scratch.</p>
+          </div>
+
+          <article class="pj-card pj-feature" id="spin-fiesta">
+            <div class="pj-copy">
+              <p class="pj-badge">Playable demo</p>
+              <h3>Spin Fiesta</h3>
+              <p class="pj-tagline">A free to play roulette game that shows how I think about onboarding, daily return and monetisation.</p>
+              <ul class="pj-points">
+                <li><span>A welcome popup gives new players 5 coins, and returning players claim 2 coins every day.</span></li>
+                <li><span>Bet on red, black or any number from 0 to 36, with win streaks, bonus coins and a celebration that grows with the win.</span></li>
+                <li><span>When coins run out, a popup offers tomorrow's coins or a demo coin shop. Coins can also be redeemed for prizes.</span></li>
+                <li><span>Tracks key events and runs an A/B headline test through a URL parameter.</span></li>
+              </ul>
+              <div class="pj-actions">
+                <a class="pj-btn" href="https://natams.github.io/spin-fiesta/" target="_blank" rel="noopener">Play the game <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
+                <a class="pj-btn pj-btn--ghost" href="https://github.com/natams/spin-fiesta" target="_blank" rel="noopener"><i class="fa-brands fa-github" aria-hidden="true"></i> GitHub</a>
+              </div>
+              <p class="pj-note">Play money only. No real payments.</p>
             </div>
 
-            <div class="desktop">
+            <a class="pj-stage" href="https://natams.github.io/spin-fiesta/" target="_blank" rel="noopener" aria-label="Play Spin Fiesta">
+              <span class="pj-browser">
+                <span class="pj-browser-bar"><span></span><span></span><span></span></span>
+                <img src="images/projects/spin-fiesta-desktop.webp" alt="Spin Fiesta on desktop" loading="lazy" decoding="async">
+              </span>
+              <span class="pj-phone">
+                <img src="images/projects/spin-fiesta-mobile.webp" alt="Spin Fiesta on mobile showing a mega win" loading="lazy" decoding="async">
+              </span>
+            </a>
+          </article>
 
-                <div class="project-container">
-                    <img class="projects-logo" src="images/galerabet.png">
-
-                    <div class="projects-marquee">
-                        <ul class="projects-marquee__content">
-                            <li>
-                                <div class="projects-marquee__project">
-                                    <div class="projects-marquee__project__image">
-                                        <img src="images/projects/gb-d-promo.png" />
-                                    </div>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="projects-marquee__project">
-                                    <div class="projects-marquee__project__image">
-                                        <img src="images/projects/gb-d-vip.jpg" />
-                                    </div>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="projects-marquee__project">
-                                    <div class="projects-marquee__project__image">
-                                        <img src="images/projects/gb-d-footer.jpg" />
-                                    </div>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="projects-marquee__project">
-                                    <div class="projects-marquee__project__image">
-                                        <img src="images/projects/gb-d-tiles.jpg" />
-                                    </div>
-                                </div>
-                            </li>
-                        </ul>
-                        <ul class="projects-marquee__content">
-                            <li>
-                                <div class="projects-marquee__project">
-                                    <div class="projects-marquee__project__image">
-                                        <img src="images/projects/gb-d-promo.png" />
-                                    </div>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="projects-marquee__project">
-                                    <div class="projects-marquee__project__image">
-                                        <img src="images/projects/gb-d-vip.jpg" />
-                                    </div>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="projects-marquee__project">
-                                    <div class="projects-marquee__project__image">
-                                        <img src="images/projects/gb-d-footer.jpg" />
-                                    </div>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="projects-marquee__project">
-                                    <div class="projects-marquee__project__image">
-                                        <img src="images/projects/gb-d-tiles.jpg" />
-                                    </div>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="project-container">
-                    <img class="projects-logo" src="images/888casino.png">
-
-                    <div class="projects-marquee">
-                        <ul class="projects-marquee__content">
-                            <li>
-                                <div class="projects-marquee__project">
-                                    <div class="projects-marquee__project__image">
-                                        <img src="images/projects/888-d-promo.png" />
-                                    </div>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="projects-marquee__project">
-                                    <div class="projects-marquee__project__image">
-                                        <img src="images/projects/888-d-footer.png" />
-                                    </div>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="projects-marquee__project">
-                                    <div class="projects-marquee__project__image">
-                                        <img src="images/projects/888-d-wheel.png" />
-                                    </div>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="projects-marquee__project">
-                                    <div class="projects-marquee__project__image">
-                                        <img src="images/projects/888-d-tile.png" />
-                                    </div>
-                                </div>
-                            </li>
-                        </ul>
-                        <ul class="projects-marquee__content">
-                            <li>
-                                <div class="projects-marquee__project">
-                                    <div class="projects-marquee__project__image">
-                                        <img src="images/projects/888-d-promo.png" />
-                                    </div>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="projects-marquee__project">
-                                    <div class="projects-marquee__project__image">
-                                        <img src="images/projects/888-d-footer.png" />
-                                    </div>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="projects-marquee__project">
-                                    <div class="projects-marquee__project__image">
-                                        <img src="images/projects/888-d-wheel.png" />
-                                    </div>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="projects-marquee__project">
-                                    <div class="projects-marquee__project__image">
-                                        <img src="images/projects/888-d-tile.png" />
-                                    </div>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="project-container">
-                    <img class="projects-logo" src="images/northstarbets.png">
-
-                    <div class="projects-marquee">
-                        <ul class="projects-marquee__content">
-                            <li>
-                                <div class="projects-marquee__project">
-                                    <div class="projects-marquee__project__image">
-                                        <img src="images/projects/nb-d-promo.png" />
-                                    </div>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="projects-marquee__project">
-                                    <div class="projects-marquee__project__image">
-                                        <img src="images/projects/nb-d-tiles.png" />
-                                    </div>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="projects-marquee__project">
-                                    <div class="projects-marquee__project__image">
-                                        <img src="images/projects/nb-d-banner.png" />
-                                    </div>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="projects-marquee__project">
-                                    <div class="projects-marquee__project__image">
-                                        <img src="images/projects/nb-d-vip.png" />
-                                    </div>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="projects-marquee__project">
-                                    <div class="projects-marquee__project__image">
-                                        <img src="images/projects/nb-d-footer.png" />
-                                    </div>
-                                </div>
-                            </li>
-                        </ul>
-                        <ul class="projects-marquee__content">
-                            <li>
-                                <div class="projects-marquee__project">
-                                    <div class="projects-marquee__project__image">
-                                        <img src="images/projects/nb-d-promo.png" />
-                                    </div>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="projects-marquee__project">
-                                    <div class="projects-marquee__project__image">
-                                        <img src="images/projects/nb-d-tiles.png" />
-                                    </div>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="projects-marquee__project">
-                                    <div class="projects-marquee__project__image">
-                                        <img src="images/projects/nb-d-banner.png" />
-                                    </div>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="projects-marquee__project">
-                                    <div class="projects-marquee__project__image">
-                                        <img src="images/projects/nb-d-vip.png" />
-                                    </div>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="projects-marquee__project">
-                                    <div class="projects-marquee__project__image">
-                                        <img src="images/projects/nb-d-footer.png" />
-                                    </div>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="project-container">
-                    <img class="projects-logo" src="images/hollandcasino.png">
-
-                    <div class="projects-marquee">
-                        <ul class="projects-marquee__content">
-                            <li>
-                                <div class="projects-marquee__project">
-                                    <div class="projects-marquee__project__image">
-                                        <img src="images/projects/hc-d-promo.png" />
-                                    </div>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="projects-marquee__project">
-                                    <div class="projects-marquee__project__image">
-                                        <img src="images/projects/hc-d-tiles.png" />
-                                    </div>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="projects-marquee__project">
-                                    <div class="projects-marquee__project__image">
-                                        <img src="images/projects/hc-d-pd.png" />
-                                    </div>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="projects-marquee__project">
-                                    <div class="projects-marquee__project__image">
-                                        <img src="images/projects/hc-d-footer.png" />
-                                    </div>
-                                </div>
-                            </li>
-                        </ul>
-                        <ul class="projects-marquee__content">
-                            <li>
-                                <div class="projects-marquee__project">
-                                    <div class="projects-marquee__project__image">
-                                        <img src="images/projects/hc-d-promo.png" />
-                                    </div>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="projects-marquee__project">
-                                    <div class="projects-marquee__project__image">
-                                        <img src="images/projects/hc-d-tiles.png" />
-                                    </div>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="projects-marquee__project">
-                                    <div class="projects-marquee__project__image">
-                                        <img src="images/projects/hc-d-pd.png" />
-                                    </div>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="projects-marquee__project">
-                                    <div class="projects-marquee__project__image">
-                                        <img src="images/projects/hc-d-footer.png" />
-                                    </div>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-
+          <article class="pj-card pj-feature pj-feature--flip" id="nexplay">
+            <div class="pj-copy">
+              <p class="pj-badge">Promotional landing pages</p>
+              <h3>NexPlay</h3>
+              <p class="pj-tagline">Two interactive promotion pages for a casino and sportsbook brand, built to turn a standard offer into something players want to play.</p>
+              <ul class="pj-points">
+                <li><span>Casino: a daily reward wheel. Players spin, see their reward and claim it, with separate flows for logged in and logged out players.</span></li>
+                <li><span>Sports: a football twist on Bet 10, Get 10. Players pick a spot in the goal and shoot for the chance to unlock 20 or 30 instead of 10.</span></li>
+                <li><span>All campaign content, from headlines and rewards to offer terms, lives in a config file, so it can change without touching the code.</span></li>
+                <li><span>Headline A/B tests run through a URL parameter, and both pages are mobile first and accessible.</span></li>
+              </ul>
+              <div class="pj-actions">
+                <a class="pj-btn" href="https://natams.github.io/nexplay-landing-pages/" target="_blank" rel="noopener">Open demo <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
+                <a class="pj-btn pj-btn--ghost" href="https://github.com/natams/nexplay-landing-pages" target="_blank" rel="noopener"><i class="fa-brands fa-github" aria-hidden="true"></i> GitHub</a>
+              </div>
             </div>
 
-            <div class="mobile">
-
-                <div class="project-container">
-                    <img class="projects-logo" src="images/galerabet.png">
-
-                    <div class="projects-marquee">
-                        <ul class="projects-marquee__content">
-                            <li>
-                                <div class="projects-marquee__project">
-                                    <div class="projects-marquee__project__image">
-                                        <img src="images/projects/gb-m-promo.png" />
-                                    </div>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="projects-marquee__project">
-                                    <div class="projects-marquee__project__image">
-                                        <img src="images/projects/gb-m-vip.png" />
-                                    </div>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="projects-marquee__project">
-                                    <div class="projects-marquee__project__image">
-                                        <img src="images/projects/gb-m-footer.png" />
-                                    </div>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="projects-marquee__project">
-                                    <div class="projects-marquee__project__image">
-                                        <img src="images/projects/gb-m-tiles.png" />
-                                    </div>
-                                </div>
-                            </li>
-                        </ul>
-                        <ul class="projects-marquee__content">
-                            <li>
-                                <div class="projects-marquee__project">
-                                    <div class="projects-marquee__project__image">
-                                        <img src="images/projects/gb-m-promo.png" />
-                                    </div>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="projects-marquee__project">
-                                    <div class="projects-marquee__project__image">
-                                        <img src="images/projects/gb-m-vip.png" />
-                                    </div>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="projects-marquee__project">
-                                    <div class="projects-marquee__project__image">
-                                        <img src="images/projects/gb-m-footer.png" />
-                                    </div>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="projects-marquee__project">
-                                    <div class="projects-marquee__project__image">
-                                        <img src="images/projects/gb-m-tiles.png" />
-                                    </div>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
+            <div class="pj-nexstage" aria-hidden="true">
+              <div class="pj-mini pj-mini--casino">
+                <div class="pj-mini-screen">
+                  <span class="pj-mini-title">Daily wheel</span>
+                  <span class="pj-wheel-art"></span>
+                  <span class="pj-mini-pill">Spin</span>
+                  <span class="pj-mini-chip">Claim your reward</span>
                 </div>
-
-                <div class="project-container">
-                    <img class="projects-logo" src="images/888casino.png">
-
-                    <div class="projects-marquee">
-                        <ul class="projects-marquee__content">
-                            <li>
-                                <div class="projects-marquee__project">
-                                    <div class="projects-marquee__project__image">
-                                        <img src="images/projects/888-m-promo.png" />
-                                    </div>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="projects-marquee__project">
-                                    <div class="projects-marquee__project__image">
-                                        <img src="images/projects/888-m-footer.png" />
-                                    </div>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="projects-marquee__project">
-                                    <div class="projects-marquee__project__image">
-                                        <img src="images/projects/888-m-wheel.png" />
-                                    </div>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="projects-marquee__project">
-                                    <div class="projects-marquee__project__image">
-                                        <img src="images/projects/888-m-tiles.png" />
-                                    </div>
-                                </div>
-                            </li>
-                        </ul>
-                        <ul class="projects-marquee__content">
-                            <li>
-                                <div class="projects-marquee__project">
-                                    <div class="projects-marquee__project__image">
-                                        <img src="images/projects/888-m-promo.png" />
-                                    </div>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="projects-marquee__project">
-                                    <div class="projects-marquee__project__image">
-                                        <img src="images/projects/888-m-footer.png" />
-                                    </div>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="projects-marquee__project">
-                                    <div class="projects-marquee__project__image">
-                                        <img src="images/projects/888-m-wheel.png" />
-                                    </div>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="projects-marquee__project">
-                                    <div class="projects-marquee__project__image">
-                                        <img src="images/projects/888-m-tiles.png" />
-                                    </div>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
+              </div>
+              <div class="pj-mini pj-mini--sports">
+                <div class="pj-mini-screen">
+                  <span class="pj-mini-title">Bet 10, Get 10</span>
+                  <span class="pj-goal"><span class="pj-target"></span><span class="pj-target"></span><span class="pj-target"></span></span>
+                  <span class="pj-ball"></span>
+                  <span class="pj-mini-pill">Shoot</span>
+                  <span class="pj-mini-chip">Unlock 20 or 30</span>
                 </div>
-
-                <div class="project-container">
-                    <img class="projects-logo" src="images/northstarbets.png">
-
-                    <div class="projects-marquee">
-                        <ul class="projects-marquee__content">
-                            <li>
-                                <div class="projects-marquee__project">
-                                    <div class="projects-marquee__project__image">
-                                        <img src="images/projects/nb-m-promo.png" />
-                                    </div>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="projects-marquee__project">
-                                    <div class="projects-marquee__project__image">
-                                        <img src="images/projects/nb-m-tiles.png" />
-                                    </div>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="projects-marquee__project">
-                                    <div class="projects-marquee__project__image">
-                                        <img src="images/projects/nb-m-banner.png" />
-                                    </div>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="projects-marquee__project">
-                                    <div class="projects-marquee__project__image">
-                                        <img src="images/projects/nb-m-vip.png" />
-                                    </div>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="projects-marquee__project">
-                                    <div class="projects-marquee__project__image">
-                                        <img src="images/projects/nb-m-footer.png" />
-                                    </div>
-                                </div>
-                            </li>
-                        </ul>
-                        <ul class="projects-marquee__content">
-                            <li>
-                                <div class="projects-marquee__project">
-                                    <div class="projects-marquee__project__image">
-                                        <img src="images/projects/nb-m-promo.png" />
-                                    </div>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="projects-marquee__project">
-                                    <div class="projects-marquee__project__image">
-                                        <img src="images/projects/nb-m-tiles.png" />
-                                    </div>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="projects-marquee__project">
-                                    <div class="projects-marquee__project__image">
-                                        <img src="images/projects/nb-m-banner.png" />
-                                    </div>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="projects-marquee__project">
-                                    <div class="projects-marquee__project__image">
-                                        <img src="images/projects/nb-m-vip.png" />
-                                    </div>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="projects-marquee__project">
-                                    <div class="projects-marquee__project__image">
-                                        <img src="images/projects/nb-m-footer.png" />
-                                    </div>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="project-container">
-                    <img class="projects-logo" src="images/hollandcasino.png">
-
-                    <div class="projects-marquee">
-                        <ul class="projects-marquee__content">
-                            <li>
-                                <div class="projects-marquee__project">
-                                    <div class="projects-marquee__project__image">
-                                        <img src="images/projects/hc-m-promo.png" />
-                                    </div>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="projects-marquee__project">
-                                    <div class="projects-marquee__project__image">
-                                        <img src="images/projects/hc-m-tiles.png" />
-                                    </div>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="projects-marquee__project">
-                                    <div class="projects-marquee__project__image">
-                                        <img src="images/projects/hc-m-pd.png" />
-                                    </div>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="projects-marquee__project">
-                                    <div class="projects-marquee__project__image">
-                                        <img src="images/projects/hc-m-footer.png" />
-                                    </div>
-                                </div>
-                            </li>
-                        </ul>
-                        <ul class="projects-marquee__content">
-                            <li>
-                                <div class="projects-marquee__project">
-                                    <div class="projects-marquee__project__image">
-                                        <img src="images/projects/hc-m-promo.png" />
-                                    </div>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="projects-marquee__project">
-                                    <div class="projects-marquee__project__image">
-                                        <img src="images/projects/hc-m-tiles.png" />
-                                    </div>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="projects-marquee__project">
-                                    <div class="projects-marquee__project__image">
-                                        <img src="images/projects/hc-m-pd.png" />
-                                    </div>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="projects-marquee__project">
-                                    <div class="projects-marquee__project__image">
-                                        <img src="images/projects/hc-m-footer.png" />
-                                    </div>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-
-                <script>
-                    document.getElementById("togBtn").addEventListener("change", function () {
-                        var isChecked = this.checked;
-
-                        // Show/hide desktop and mobile content based on toggle state
-                        if (isChecked) {
-                            document.querySelector(".desktop").style.display = "none";
-                            document.querySelector(".mobile").style.display = "block";
-                        } else {
-                            document.querySelector(".desktop").style.display = "block";
-                            document.querySelector(".mobile").style.display = "none";
-                        }
-                    });
-                </script>
-
+              </div>
             </div>
+          </article>
+        </section>
 
-            <h2>Other Projects</h2>
-
-            <div class="project-container">
-
-                <div class="projects-marquee">
-                    <ul class="projects-marquee__content">
-                        <li>
-                            <a href="https://www.didea.io/" target="_blank">
-                                <div class="projects-marquee__project tile-bgd">
-                                    <div class="projects-marquee__project__image didea">
-                                        <img src="images/didea-logo-1.png" />
-                                    </div>
-                                </div>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="projects/wedding-site/wedding-index.html" target="_blank">
-                                <div class="projects-marquee__project tile-bgd">
-                                    <div class="projects-marquee__project__image wedding">
-                                        <img src="images/odaya-amit-logo.png" />
-                                    </div>
-                                </div>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://www.winecloud.ai/" target="_blank">
-                                <div class="projects-marquee__project tile-bgd">
-                                    <div class="projects-marquee__project__image naor">
-                                        <img src="images/naor_logo.png" style="width: 70%;"/>
-                                    </div>
-                                </div>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="projects/ask-donuts/index-donuts.html" target="_blank">
-                                <div class="projects-marquee__project tile-bgd">
-                                    <div class="projects-marquee__project__image ask">
-                                        <img src="images/ask-logo.png" />
-                                    </div>
-                                </div>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="projects/nasonex/index.html" target="_blank">
-                                <div class="projects-marquee__project tile-bgd">
-                                    <div class="projects-marquee__project__image nasonex">
-                                        <img src="images/nasonex-logo.png" style="width: 90%;"/>
-                                    </div>
-                                </div>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="projects/udamy-omifood-project/index.html" target="_blank">
-                                <div class="projects-marquee__project tile-bgd">
-                                    <div class="projects-marquee__project__image omnifood">
-                                        <img src="images/omnifood-logo-1.png" style="width: 90%;"/>
-                                    </div>
-                                </div>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="projects/aerius/index.html" target="_blank">
-                                <div class="projects-marquee__project tile-bgd">
-                                    <div class="projects-marquee__project__image aerius">
-                                        <img src="images/aerius-logo.png" />
-                                    </div>
-                                </div>
-                            </a>
-                        </li>
-                    </ul>
-                    <ul class="projects-marquee__content">
-                        <li>
-                            <a href="https://www.didea.io/" target="_blank">
-                                <div class="projects-marquee__project tile-bgd">
-                                    <div class="projects-marquee__project__image didea">
-                                        <img src="images/didea-logo-1.png" />
-                                    </div>
-                                </div>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="projects/wedding-site/wedding-index.html" target="_blank">
-                                <div class="projects-marquee__project tile-bgd">
-                                    <div class="projects-marquee__project__image wedding">
-                                        <img src="images/odaya-amit-logo.png" />
-                                    </div>
-                                </div>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://www.winecloud.ai/" target="_blank">
-                                <div class="projects-marquee__project tile-bgd">
-                                    <div class="projects-marquee__project__image naor">
-                                        <img src="images/naor_logo.png" style="width: 70%;"/>
-                                    </div>
-                                </div>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="projects/ask-donuts/index-donuts.html" target="_blank">
-                                <div class="projects-marquee__project tile-bgd">
-                                    <div class="projects-marquee__project__image ask">
-                                        <img src="images/ask-logo.png" />
-                                    </div>
-                                </div>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="projects/nasonex/index.html" target="_blank">
-                                <div class="projects-marquee__project tile-bgd">
-                                    <div class="projects-marquee__project__image nasonex">
-                                        <img src="images/nasonex-logo.png" style="width: 90%;"/>
-                                    </div>
-                                </div>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="projects/udamy-omifood-project/index.html" target="_blank">
-                                <div class="projects-marquee__project tile-bgd">
-                                    <div class="projects-marquee__project__image omnifood">
-                                        <img src="images/omnifood-logo-1.png" style="width: 90%;"/>
-                                    </div>
-                                </div>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="projects/aerius/index.html" target="_blank">
-                                <div class="projects-marquee__project tile-bgd">
-                                    <div class="projects-marquee__project__image aerius">
-                                        <img src="images/aerius-logo.png" />
-                                    </div>
-                                </div>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
+        <section id="brand-work" class="pj-work" data-view="desktop" aria-labelledby="pj-work-title">
+          <div class="pj-sec-head">
+            <p class="pj-kicker">Real brands</p>
+            <h2 id="pj-work-title">Casino and sportsbook work</h2>
+            <p class="pj-sub">Operator brands I worked on at Playtech. Promotions, VIP pages, banners and game tiles, built and maintained in Playtech CMS and back office systems.</p>
+            <div class="pj-seg" role="group" aria-label="Choose screen size">
+              <button type="button" data-view="desktop" aria-pressed="true"><i class="fa-solid fa-desktop" aria-hidden="true"></i> Desktop</button>
+              <button type="button" data-view="mobile" aria-pressed="false"><i class="fa-solid fa-mobile-screen" aria-hidden="true"></i> Mobile</button>
             </div>
+          </div>
 
-            <h2>Figma</h2>
-
-            <div class="project-container project-flex">
-
-                <div class="projects-figma">
-                    <ul class="projects-figma">
-                        <li>
-                            <a href="https://www.figma.com/design/mePmiXTToYLeF3hSGcjrzw/Aerius-%26-Nasonex?node-id=0-1&t=NK7cNc9cK2v8bukJ-0"
-                                target="_blank">
-                                <div class="projects-marquee__project tile-bgd">
-                                    <div class="projects-marquee__project__image aerius-nasonex">
-                                        <span><img src="images/nasonex-logo.png" /></span>
-                                        <span><img src="images/aerius-logo.png" /></span>
-                                    </div>
-                                </div>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
+          <article class="pj-card pj-brand">
+            <div class="pj-brand-info">
+              <img class="pj-logo" src="images/galerabet.png" alt="GaleraBet logo" loading="lazy" decoding="async">
+              <h3>GaleraBet</h3>
+              <p>Promotion pages, the VIP experience, game tiles and footer.</p>
+              <a class="pj-btn pj-btn--ghost pj-btn--sm" href="https://galera.bet.br/" target="_blank" rel="noopener">Visit website <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
             </div>
+            <div class="pj-brand-shots">
+              <div class="pj-strip-top">
+                <span data-set="desktop">4 desktop screens. Tap one to enlarge.</span>
+                <span data-set="mobile">4 mobile screens. Tap one to enlarge.</span>
+                <span class="pj-arrows">
+                  <button type="button" class="pj-arrow" data-dir="-1" aria-label="Scroll GaleraBet screens left"><i class="fa-solid fa-chevron-left" aria-hidden="true"></i></button>
+                  <button type="button" class="pj-arrow" data-dir="1" aria-label="Scroll GaleraBet screens right"><i class="fa-solid fa-chevron-right" aria-hidden="true"></i></button>
+                </span>
+              </div>
+              <div class="pj-strip" data-set="desktop" tabindex="0" aria-label="GaleraBet desktop screens">
+                  <button type="button" class="pj-shot"><img src="images/projects/gb-d-promo.png" alt="GaleraBet desktop: Promotions" loading="lazy" decoding="async"><span class="pj-cap">Promotions</span></button>
+                  <button type="button" class="pj-shot"><img src="images/projects/gb-d-vip.jpg" alt="GaleraBet desktop: VIP" loading="lazy" decoding="async"><span class="pj-cap">VIP</span></button>
+                  <button type="button" class="pj-shot"><img src="images/projects/gb-d-tiles.jpg" alt="GaleraBet desktop: Game tiles" loading="lazy" decoding="async"><span class="pj-cap">Game tiles</span></button>
+                  <button type="button" class="pj-shot"><img src="images/projects/gb-d-footer.jpg" alt="GaleraBet desktop: Footer" loading="lazy" decoding="async"><span class="pj-cap">Footer</span></button>
+              </div>
+              <div class="pj-strip" data-set="mobile" tabindex="0" aria-label="GaleraBet mobile screens">
+                  <button type="button" class="pj-shot"><img src="images/projects/gb-m-promo.png" alt="GaleraBet mobile: Promotions" loading="lazy" decoding="async"><span class="pj-cap">Promotions</span></button>
+                  <button type="button" class="pj-shot"><img src="images/projects/gb-m-vip.png" alt="GaleraBet mobile: VIP" loading="lazy" decoding="async"><span class="pj-cap">VIP</span></button>
+                  <button type="button" class="pj-shot"><img src="images/projects/gb-m-tiles.png" alt="GaleraBet mobile: Game tiles" loading="lazy" decoding="async"><span class="pj-cap">Game tiles</span></button>
+                  <button type="button" class="pj-shot"><img src="images/projects/gb-m-footer.png" alt="GaleraBet mobile: Footer" loading="lazy" decoding="async"><span class="pj-cap">Footer</span></button>
+              </div>
+            </div>
+          </article>
 
-        </div>
+          <article class="pj-card pj-brand">
+            <div class="pj-brand-info">
+              <img class="pj-logo" src="images/888casino.png" alt="888casino logo" loading="lazy" decoding="async">
+              <h3>888casino</h3>
+              <p>Promotions, an interactive wheel promotion, game tiles and footer.</p>
+              <a class="pj-btn pj-btn--ghost pj-btn--sm" href="https://www.arabic888casino.com/en" target="_blank" rel="noopener">Visit website <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
+            </div>
+            <div class="pj-brand-shots">
+              <div class="pj-strip-top">
+                <span data-set="desktop">4 desktop screens. Tap one to enlarge.</span>
+                <span data-set="mobile">4 mobile screens. Tap one to enlarge.</span>
+                <span class="pj-arrows">
+                  <button type="button" class="pj-arrow" data-dir="-1" aria-label="Scroll 888casino screens left"><i class="fa-solid fa-chevron-left" aria-hidden="true"></i></button>
+                  <button type="button" class="pj-arrow" data-dir="1" aria-label="Scroll 888casino screens right"><i class="fa-solid fa-chevron-right" aria-hidden="true"></i></button>
+                </span>
+              </div>
+              <div class="pj-strip" data-set="desktop" tabindex="0" aria-label="888casino desktop screens">
+                  <button type="button" class="pj-shot"><img src="images/projects/888-d-promo.png" alt="888casino desktop: Promotions" loading="lazy" decoding="async"><span class="pj-cap">Promotions</span></button>
+                  <button type="button" class="pj-shot"><img src="images/projects/888-d-wheel.png" alt="888casino desktop: Wheel promo" loading="lazy" decoding="async"><span class="pj-cap">Wheel promo</span></button>
+                  <button type="button" class="pj-shot"><img src="images/projects/888-d-tile.png" alt="888casino desktop: Game tiles" loading="lazy" decoding="async"><span class="pj-cap">Game tiles</span></button>
+                  <button type="button" class="pj-shot"><img src="images/projects/888-d-footer.png" alt="888casino desktop: Footer" loading="lazy" decoding="async"><span class="pj-cap">Footer</span></button>
+              </div>
+              <div class="pj-strip" data-set="mobile" tabindex="0" aria-label="888casino mobile screens">
+                  <button type="button" class="pj-shot"><img src="images/projects/888-m-promo.png" alt="888casino mobile: Promotions" loading="lazy" decoding="async"><span class="pj-cap">Promotions</span></button>
+                  <button type="button" class="pj-shot"><img src="images/projects/888-m-wheel.png" alt="888casino mobile: Wheel promo" loading="lazy" decoding="async"><span class="pj-cap">Wheel promo</span></button>
+                  <button type="button" class="pj-shot"><img src="images/projects/888-m-tiles.png" alt="888casino mobile: Game tiles" loading="lazy" decoding="async"><span class="pj-cap">Game tiles</span></button>
+                  <button type="button" class="pj-shot"><img src="images/projects/888-m-footer.png" alt="888casino mobile: Footer" loading="lazy" decoding="async"><span class="pj-cap">Footer</span></button>
+              </div>
+            </div>
+          </article>
+
+          <article class="pj-card pj-brand">
+            <div class="pj-brand-info">
+              <img class="pj-logo" src="images/northstarbets.png" alt="NorthStar Bets logo" loading="lazy" decoding="async">
+              <h3>NorthStar Bets</h3>
+              <p>Promotions, banners, game tiles, VIP pages and footer for a sportsbook brand.</p>
+              <a class="pj-btn pj-btn--ghost pj-btn--sm" href="https://www.northstarbets.ca/" target="_blank" rel="noopener">Visit website <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
+            </div>
+            <div class="pj-brand-shots">
+              <div class="pj-strip-top">
+                <span data-set="desktop">5 desktop screens. Tap one to enlarge.</span>
+                <span data-set="mobile">5 mobile screens. Tap one to enlarge.</span>
+                <span class="pj-arrows">
+                  <button type="button" class="pj-arrow" data-dir="-1" aria-label="Scroll NorthStar Bets screens left"><i class="fa-solid fa-chevron-left" aria-hidden="true"></i></button>
+                  <button type="button" class="pj-arrow" data-dir="1" aria-label="Scroll NorthStar Bets screens right"><i class="fa-solid fa-chevron-right" aria-hidden="true"></i></button>
+                </span>
+              </div>
+              <div class="pj-strip" data-set="desktop" tabindex="0" aria-label="NorthStar Bets desktop screens">
+                  <button type="button" class="pj-shot"><img src="images/projects/nb-d-promo.png" alt="NorthStar Bets desktop: Promotions" loading="lazy" decoding="async"><span class="pj-cap">Promotions</span></button>
+                  <button type="button" class="pj-shot"><img src="images/projects/nb-d-banner.png" alt="NorthStar Bets desktop: Banner" loading="lazy" decoding="async"><span class="pj-cap">Banner</span></button>
+                  <button type="button" class="pj-shot"><img src="images/projects/nb-d-tiles.png" alt="NorthStar Bets desktop: Game tiles" loading="lazy" decoding="async"><span class="pj-cap">Game tiles</span></button>
+                  <button type="button" class="pj-shot"><img src="images/projects/nb-d-vip.png" alt="NorthStar Bets desktop: VIP" loading="lazy" decoding="async"><span class="pj-cap">VIP</span></button>
+                  <button type="button" class="pj-shot"><img src="images/projects/nb-d-footer.png" alt="NorthStar Bets desktop: Footer" loading="lazy" decoding="async"><span class="pj-cap">Footer</span></button>
+              </div>
+              <div class="pj-strip" data-set="mobile" tabindex="0" aria-label="NorthStar Bets mobile screens">
+                  <button type="button" class="pj-shot"><img src="images/projects/nb-m-promo.png" alt="NorthStar Bets mobile: Promotions" loading="lazy" decoding="async"><span class="pj-cap">Promotions</span></button>
+                  <button type="button" class="pj-shot"><img src="images/projects/nb-m-banner.png" alt="NorthStar Bets mobile: Banner" loading="lazy" decoding="async"><span class="pj-cap">Banner</span></button>
+                  <button type="button" class="pj-shot"><img src="images/projects/nb-m-tiles.png" alt="NorthStar Bets mobile: Game tiles" loading="lazy" decoding="async"><span class="pj-cap">Game tiles</span></button>
+                  <button type="button" class="pj-shot"><img src="images/projects/nb-m-vip.png" alt="NorthStar Bets mobile: VIP" loading="lazy" decoding="async"><span class="pj-cap">VIP</span></button>
+                  <button type="button" class="pj-shot"><img src="images/projects/nb-m-footer.png" alt="NorthStar Bets mobile: Footer" loading="lazy" decoding="async"><span class="pj-cap">Footer</span></button>
+              </div>
+            </div>
+          </article>
+
+          <article class="pj-card pj-brand">
+            <div class="pj-brand-info">
+              <img class="pj-logo" src="images/hollandcasino.png" alt="Holland Casino logo" loading="lazy" decoding="async">
+              <h3>Holland Casino</h3>
+              <p>Promotions, game tiles, a promotion detail page and footer.</p>
+              <a class="pj-btn pj-btn--ghost pj-btn--sm" href="https://www.hollandcasino.nl/" target="_blank" rel="noopener">Visit website <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
+            </div>
+            <div class="pj-brand-shots">
+              <div class="pj-strip-top">
+                <span data-set="desktop">4 desktop screens. Tap one to enlarge.</span>
+                <span data-set="mobile">4 mobile screens. Tap one to enlarge.</span>
+                <span class="pj-arrows">
+                  <button type="button" class="pj-arrow" data-dir="-1" aria-label="Scroll Holland Casino screens left"><i class="fa-solid fa-chevron-left" aria-hidden="true"></i></button>
+                  <button type="button" class="pj-arrow" data-dir="1" aria-label="Scroll Holland Casino screens right"><i class="fa-solid fa-chevron-right" aria-hidden="true"></i></button>
+                </span>
+              </div>
+              <div class="pj-strip" data-set="desktop" tabindex="0" aria-label="Holland Casino desktop screens">
+                  <button type="button" class="pj-shot"><img src="images/projects/hc-d-promo.png" alt="Holland Casino desktop: Promotions" loading="lazy" decoding="async"><span class="pj-cap">Promotions</span></button>
+                  <button type="button" class="pj-shot"><img src="images/projects/hc-d-tiles.png" alt="Holland Casino desktop: Game tiles" loading="lazy" decoding="async"><span class="pj-cap">Game tiles</span></button>
+                  <button type="button" class="pj-shot"><img src="images/projects/hc-d-pd.png" alt="Holland Casino desktop: Promo detail" loading="lazy" decoding="async"><span class="pj-cap">Promo detail</span></button>
+                  <button type="button" class="pj-shot"><img src="images/projects/hc-d-footer.png" alt="Holland Casino desktop: Footer" loading="lazy" decoding="async"><span class="pj-cap">Footer</span></button>
+              </div>
+              <div class="pj-strip" data-set="mobile" tabindex="0" aria-label="Holland Casino mobile screens">
+                  <button type="button" class="pj-shot"><img src="images/projects/hc-m-promo.png" alt="Holland Casino mobile: Promotions" loading="lazy" decoding="async"><span class="pj-cap">Promotions</span></button>
+                  <button type="button" class="pj-shot"><img src="images/projects/hc-m-tiles.png" alt="Holland Casino mobile: Game tiles" loading="lazy" decoding="async"><span class="pj-cap">Game tiles</span></button>
+                  <button type="button" class="pj-shot"><img src="images/projects/hc-m-pd.png" alt="Holland Casino mobile: Promo detail" loading="lazy" decoding="async"><span class="pj-cap">Promo detail</span></button>
+                  <button type="button" class="pj-shot"><img src="images/projects/hc-m-footer.png" alt="Holland Casino mobile: Footer" loading="lazy" decoding="async"><span class="pj-cap">Footer</span></button>
+              </div>
+            </div>
+          </article>
+        </section>
+
+        <section id="more" aria-labelledby="pj-more-title">
+          <div class="pj-sec-head">
+            <p class="pj-kicker">Beyond iGaming</p>
+            <h2 id="pj-more-title">More work</h2>
+          </div>
+          <div class="pj-tiles">
+            <article class="pj-card pj-tile">
+              <a class="pj-tile-art" style="background:#fde2d5" href="https://www.didea.io/" target="_blank" rel="noopener" aria-label="Visit didea.io"><img src="images/didea-logo-1.png" alt="Didea logo" loading="lazy" decoding="async"></a>
+              <div class="pj-tile-body">
+                <h3>Didea</h3>
+                <p>A live company website.</p>
+                <a class="pj-link" href="https://www.didea.io/" target="_blank" rel="noopener">Visit site <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
+              </div>
+            </article>
+            <article class="pj-card pj-tile">
+              <a class="pj-tile-art" style="background:#4b131e" href="https://www.winecloud.ai/" target="_blank" rel="noopener" aria-label="Visit winecloud.ai"><img src="images/naor_logo.png" alt="Winecloud logo" loading="lazy" decoding="async"></a>
+              <div class="pj-tile-body">
+                <h3>Winecloud</h3>
+                <p>A live product website.</p>
+                <a class="pj-link" href="https://www.winecloud.ai/" target="_blank" rel="noopener">Visit site <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
+              </div>
+            </article>
+            <article class="pj-card pj-tile">
+              <a class="pj-tile-art pj-tile-art--duo" style="background:#81a7b0" href="https://www.figma.com/design/mePmiXTToYLeF3hSGcjrzw/Aerius-%26-Nasonex?node-id=0-1&t=NK7cNc9cK2v8bukJ-0" target="_blank" rel="noopener" aria-label="Open the Aerius and Nasonex Figma file">
+                <img src="images/nasonex-logo.png" alt="Nasonex logo" loading="lazy" decoding="async">
+                <img src="images/aerius-logo.png" alt="Aerius logo" loading="lazy" decoding="async">
+              </a>
+              <div class="pj-tile-body">
+                <h3>Aerius and Nasonex</h3>
+                <p>Figma designs and the pages built from them.</p>
+                <span class="pj-links">
+                  <a class="pj-link" href="https://www.figma.com/design/mePmiXTToYLeF3hSGcjrzw/Aerius-%26-Nasonex?node-id=0-1&t=NK7cNc9cK2v8bukJ-0" target="_blank" rel="noopener">Figma <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
+                  <a class="pj-link" href="https://natams.github.io/Nasonex-Aerius/index-aerius.html" target="_blank" rel="noopener">Aerius <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
+                  <a class="pj-link" href="https://natams.github.io/Nasonex-Aerius/index-nasonex.html" target="_blank" rel="noopener">Nasonex <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
+                </span>
+              </div>
+            </article>
+            <article class="pj-card pj-tile">
+              <a class="pj-tile-art" style="background:#000000" href="projects/wedding-site/wedding-index.html" target="_blank" rel="noopener" aria-label="Open the wedding website"><img src="images/odaya-amit-logo.png" alt="Odaya and Amit wedding logo" loading="lazy" decoding="async"></a>
+              <div class="pj-tile-body">
+                <h3>Wedding website</h3>
+                <p>A wedding website for Odaya and Amit.</p>
+                <a class="pj-link" href="projects/wedding-site/wedding-index.html" target="_blank" rel="noopener">Visit site <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
+              </div>
+            </article>
+            <article class="pj-card pj-tile">
+              <a class="pj-tile-art" style="background:#fcf2e9" href="https://natams.github.io/OmifoodProject.github.io/" target="_blank" rel="noopener" aria-label="Open the Omnifood website"><img src="images/omnifood-logo-1.png" alt="Omnifood logo" loading="lazy" decoding="async"></a>
+              <div class="pj-tile-body">
+                <h3>Omnifood</h3>
+                <p>A responsive landing page for a meal delivery startup.</p>
+                <a class="pj-link" href="https://natams.github.io/OmifoodProject.github.io/" target="_blank" rel="noopener">Visit site <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
+              </div>
+            </article>
+          </div>
+        </section>
+
+
+      </div>
+
+      <dialog id="lightbox" class="pj-lightbox" aria-label="Screenshot viewer">
+        <button type="button" class="pj-lb-close" id="lb-close" aria-label="Close viewer"><i class="fa-solid fa-xmark" aria-hidden="true"></i></button>
+        <button type="button" class="pj-lb-nav pj-lb-prev" id="lb-prev" aria-label="Previous screen"><i class="fa-solid fa-chevron-left" aria-hidden="true"></i></button>
+        <figure>
+          <img id="lb-img" src="" alt="">
+          <figcaption><span id="lb-cap"></span><span id="lb-count"></span></figcaption>
+        </figure>
+        <button type="button" class="pj-lb-nav pj-lb-next" id="lb-next" aria-label="Next screen"><i class="fa-solid fa-chevron-right" aria-hidden="true"></i></button>
+      </dialog>
 
     </main>
 

@@ -79,6 +79,78 @@ window.addEventListener("popstate", (event) => {
 //     }, 500); 
 //   });
 
+const brandWork = document.getElementById("brand-work");
+
+if (brandWork) {
+    const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+    const viewButtons = document.querySelectorAll(".pj-seg button");
+
+    viewButtons.forEach(button => {
+        button.addEventListener("click", () => {
+            brandWork.dataset.view = button.dataset.view;
+            viewButtons.forEach(b => b.setAttribute("aria-pressed", String(b === button)));
+        });
+    });
+
+    document.querySelectorAll(".pj-brand").forEach(card => {
+        card.querySelectorAll(".pj-arrow").forEach(arrow => {
+            arrow.addEventListener("click", () => {
+                const strip = card.querySelector('.pj-strip[data-set="' + brandWork.dataset.view + '"]');
+                strip.scrollBy({ left: Number(arrow.dataset.dir) * strip.clientWidth * 0.8, behavior: reduceMotion ? "auto" : "smooth" });
+            });
+        });
+    });
+
+    const lightbox = document.getElementById("lightbox");
+    const lightboxImg = document.getElementById("lb-img");
+    const lightboxCap = document.getElementById("lb-cap");
+    const lightboxCount = document.getElementById("lb-count");
+    let lightboxItems = [];
+    let lightboxIndex = 0;
+    let lightboxOpener = null;
+
+    function showShot() {
+        const img = lightboxItems[lightboxIndex];
+        lightboxImg.src = img.currentSrc || img.src;
+        lightboxImg.alt = img.alt;
+        lightboxCap.textContent = img.alt;
+        lightboxCount.textContent = lightboxIndex + 1 + " / " + lightboxItems.length;
+    }
+
+    function stepShot(dir) {
+        lightboxIndex = (lightboxIndex + dir + lightboxItems.length) % lightboxItems.length;
+        showShot();
+    }
+
+    document.querySelectorAll(".pj-shot").forEach(shot => {
+        shot.addEventListener("click", () => {
+            const strip = shot.parentElement;
+            lightboxItems = Array.from(strip.querySelectorAll("img"));
+            lightboxIndex = Array.from(strip.querySelectorAll(".pj-shot")).indexOf(shot);
+            lightboxOpener = shot;
+            showShot();
+            lightbox.showModal();
+        });
+    });
+
+    document.getElementById("lb-prev").addEventListener("click", () => stepShot(-1));
+    document.getElementById("lb-next").addEventListener("click", () => stepShot(1));
+    document.getElementById("lb-close").addEventListener("click", () => lightbox.close());
+
+    lightbox.addEventListener("click", (e) => {
+        if (e.target === lightbox) lightbox.close();
+    });
+
+    lightbox.addEventListener("keydown", (e) => {
+        if (e.key === "ArrowLeft") stepShot(-1);
+        if (e.key === "ArrowRight") stepShot(1);
+    });
+
+    lightbox.addEventListener("close", () => {
+        if (lightboxOpener) lightboxOpener.focus();
+    });
+}
+
 //   Slider btn in Projects Page
 document.getElementById("togBtn").addEventListener("change", function() {
     var isChecked = this.checked;
